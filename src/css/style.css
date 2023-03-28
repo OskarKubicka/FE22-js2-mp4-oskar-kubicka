@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-flow: row;
+
+}
+
+
+#calculator-hidden {
+    display: none;
+    
+}
+
+p {
+    margin: 20px;
+    border: 2px black solid;
+}
+
+.tools {
+    border: 2px red solid
+}
+
+#first-number{
+    border: 1px blue solid;
+    width: 100px;
+    height: 30px
+    
+}
+#second-number{
+    border: 1px blue solid;
+    width: 100px;
+    height: 30px
+    
+}
+
+.tools-class{
+    background-color: beige;
+}
