@@ -26,7 +26,7 @@ let numberArray: number[] = []
 //första numret som ska användas skapas med clickfunktionen
 calcDiv.addEventListener('click', event => {
      h1Result.innerText = ''
-     console.log(event.target);
+  
      const target: HTMLElement = event.target as HTMLElement;
 
      if (target) {
